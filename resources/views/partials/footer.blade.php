@@ -1,3 +1,4 @@
 <footer>
-    <h1>FOOTER</h1>
+    <h1>per info e domande rivolgersi qui: ... </h1>
+    <small>credits by boolean</small>
 </footer>

@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <h1>hello world</h1>
+    <h1>la programmazione dei nostri treni:</h1>
 
     <div class="container d-flex flex-wrap">
         @foreach ($trains as $train)

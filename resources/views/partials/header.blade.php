@@ -1,3 +1,3 @@
 <header>
-    <h1>HEADER</h1>
+    <h1>TraainBool</h1>
 </header>
