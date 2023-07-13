@@ -23,7 +23,7 @@ class TrainFactory extends Factory
             'departure_time' => fake() -> time(),
             'arrival_time' => fake() -> time(),
             'code' => fake() -> randomNumber(8, true),
-            'n_carriage' => fake() -> numberBetween(0, 10),
+            'n_carriage' => fake() -> numberBetween(1, 12),
             'in_time' => fake() -> boolean(),
             'delated' => fake() -> boolean(),
         ];

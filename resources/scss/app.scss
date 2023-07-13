@@ -1,1 +1,26 @@
 @import '~bootstrap/scss/bootstrap';
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    padding: 20px;
+    width: calc((100% / 3 ) - 20px);
+    background-color: bisque;
+}
+
+ul{
+    list-style: none;
+    li{
+        margin-top: 5px;
+    }
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: greenyellow;
+}
