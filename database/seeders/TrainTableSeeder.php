@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-use app\Models\Train;
+use App\Models\Train;
 
 class TrainTableSeeder extends Seeder
 {
@@ -19,6 +19,6 @@ class TrainTableSeeder extends Seeder
     {
 
 
-        Train::factory()->count(100)->create();
+        Train :: factory() -> count(100) -> create();
     }
 }
