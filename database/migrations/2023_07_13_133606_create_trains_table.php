@@ -17,14 +17,14 @@ return new class extends Migration
             $table->id();
 
             $table->string('agency',20);
-            $table->string('departure_station');
-            $table->string('arrival_station');
+            $table->string('departure_station',20);
+            $table->string('arrival_station',20);
             $table->time('departure_time');
             $table->time('arrival_time');
-            $table->string('code');
+            $table->string('code',8);
             $table->integer('n_carriage');
-            $table->boolean('in_time')->defoult(true);
-            $table->boolean('delated')->defoult(false);
+            $table->boolean('in_time')->default(true);
+            $table->boolean('delated')->default(false);
 
             $table->timestamps();
         });
